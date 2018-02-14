@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Psychic Game</title>
+
+    <meta charset="utf-8">
+	<!-- set up style sheets -->
+	<!-- reset not needed because using bootstrap -->
+	<!-- <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"> -->
+	<!-- Link in locally stored min version of bootstrap.css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<!-- This is what will be displayed on screen to begin -->
+	<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-6">
+					<img src="assets/images/warped-board-1242349.jpg" height="300" width="500"  class="img-responsive" alt="keyboard">
+				</div>
+				<div class="col-md-5"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-6" id="game">
+					<p><h1>The Psychic Game</h1></p>
+					<p><h4>Guess what letter I'm thinking of</h4></p>
+					<p><h4>Wins: 0</h4></p>
+					<p><h4>Losses: 0</h4></p>
+					<p><h4>Guesses Left: 9</h4></p>
+					<p><h4>Your guesses so far: </h4></p>
+				</div>
+			</div>
+	</div>
+	
+	<!-- Link to javascript game.js -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
